@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="upper">
+        <div class="upper-heading">
+          <div>TimeZone API</div>
+          <div>Tour current Time Zone</div>
+        </div>
+        <div class="upper-content">
+          <div class="content">
+            <div >Name of the time Zone : <span id="u-timezone"></span></div> 
+            <div class="lat-lon">
+              <div>Lat :<span id="u-lat"></span></div>
+              <div class="lon">Long :<span id="u-lon"></span></div>
+            </div>
+            <div>Offest STD :<span id="u-std"></span></div>
+            <div>Offset STD's Seconds :<span id="u-seconds"></span></div>
+            <div>Offest DST Seconds :<span id="u-dst"></span></div>
+            <div>Country :<span id="u-country"></span></div>
+            <div>Postal Code :<span id="u-postal"></span></div>
+            <div>City :<span id="u-city"></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="lower">
+        <div class="lower-heading">
+          <div>Enter Address</div>  
+        </div>
+        <div class="input">
+          <input id="input" type="text" placeholder=" Type Your Address" />
+        </div>
+        <div class="button">
+          <button id="button">Submit</button>
+        </div>
+        <div class="lower-content">
+            <div class="content">
+                
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

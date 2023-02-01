@@ -1,0 +1,98 @@
+*{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    background-color: rgb(236, 232, 232);
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper{
+    background-color: white;
+    padding: 10px 10px;
+    border: 2px solid black;
+    width: 80%;
+    height: 50%;
+}
+
+.content div{
+    margin-bottom: 2px;
+}
+
+.upper-heading{
+    font-size: 30px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.lat-lon{
+    display: flex;
+    /* border: 2px solid black; */
+}
+
+.lat-lon .lon{
+  margin-left: 230px;
+}
+
+  /* lower  */
+
+
+.lower{
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border: 2px solid black;
+    width: 80%;
+    height: 50%;
+}
+
+.lower-heading{
+    font-size: 30px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input{
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+    width: 500px;
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+.lower-content{
+    margin-top: 20px;
+}
+
+.lower-content div{
+    margin-bottom: 3px;
+}
+
+.content span{
+    position: absolute;
+    left: 450px;
+}
+
+.lat-lon span{
+    position: relative;
+    left: 145px;
+}
+
+#u-lon{
+    margin-left: -40px;
+}
+
+.lower .l-lon{
+    margin-left:230px;
+}
+
+#correct{
+    margin-left: -4 0px;
+}
